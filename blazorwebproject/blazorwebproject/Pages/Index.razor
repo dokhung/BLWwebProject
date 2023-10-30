@@ -1,0 +1,51 @@
+﻿@page "/"
+
+
+@code {
+    private string id = "";
+    private int pw = 0;
+    private string displayText = "Login";
+
+    private async void ChangeText()
+    {
+        displayText = ">w<";
+        StateHasChanged(); // 상태 변경을 UI에 반영
+
+        await Task.Delay(2000); // 2초 대기
+
+        displayText = "Login";
+        StateHasChanged(); // 상태 변경을 UI에 반영
+    }
+
+
+
+
+}
+<link rel="stylesheet" href="css/Login.scss" />
+<div class="group-2-gry">
+<div class="group-1-Xch" style="width: max-content">
+    <div class="rectangle-2-5g9" id="1:3">
+        <input class="rectangle-3-XY9" style="border: none;"/>
+            <NavLink href="/fast">
+                <button class="rectangle-5-DA5" style="border: none;">
+                </button>
+            </NavLink>
+        <button class="rectangle-10-WQ5" style="border: none;"></button>
+        <button class="rectangle-11-dDo" style="border: none;"></button>
+        <div class="rectangle-13-8AZ" id="8:31"></div>
+        <button class="rectangle-12-c5j" style="border: none;"></button>
+        <div class="rectangle-7-vMK"></div>
+        <input class="rectangle-8-RYy" style="border: none;"/>
+        <div class="rectangle-9-LR3" id="8:23"></div>
+        <div class="login-3qF" @onclick="ChangeText">@displayText</div>
+        <div class="id-tqs" id="8:33">ID</div>
+        <div class="pw-nwF" id="8:34">PW</div>
+        <div class="id-pw-tDb" id="8:35">ID/PW</div>
+        <div class="login-yF3">Login</div>
+        <div class="close-ery" id="8:38">Close</div>
+        <div class="register-kv1">Register</div>
+    </div>
+</div>
+</div>
+
+

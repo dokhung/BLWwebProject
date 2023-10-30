@@ -1,0 +1,239 @@
+.group-2-gry {
+    height: 100%;
+    width: 100%;
+
+    .group-1-Xch {
+        height: 100%;
+        width: 100%;
+
+        .rectangle-2-5g9 {
+            background-color: #d9d9d9;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 26.4742rem;
+            position: absolute;
+            width: 30.8875rem;
+
+            /* Flexbox를 사용하여 가운데 정렬 */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .rectangle-3-XY9 {
+            background-color: #ffffff;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.2247rem;
+            left: 10.7247rem;
+            position: absolute;
+            top: 9.5326rem;
+            width: 19.1208rem;
+            
+        }
+        .rectangle-5-DA5 {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.1135rem;
+            left: 11.4601rem;
+            position: absolute;
+            top: 17.6573rem;
+            width: 8.825rem;
+            transition: transform 0.2s; /* 모션에 애니메이션을 적용하기 위한 트랜지션 속성 추가 */
+        }
+
+        .rectangle-5-DA5:active {
+            transform: translateY(2px); /* 클릭 시 아래로 2px 이동하여 누른 듯한 모션 적용 */
+        }
+        .rectangle-10-WQ5 {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.1135rem;
+            left: 11.4601rem;
+            position: absolute;
+            top: 20.6573rem;
+            width: 8.825rem;
+            transition: transform 0.2s;
+        }
+        .rectangle-10-WQ5:active{
+            transform: translateY(2px);
+        }
+        .rectangle-11-dDo {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.1135rem;
+            left: 2.3rem;
+            position: absolute;
+            top: 17.6124rem;
+            width: 8.825rem;
+            transition: transform 0.2s;
+        }
+        .rectangle-11-dDo:active{
+            transform: translateY(2px);
+        }
+        .rectangle-13-8AZ {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 4.1rem;
+            left: 10.1rem;
+            position: absolute;
+            top: 2.4rem;
+            width: 11.6rem;
+        }
+        .rectangle-12-c5j {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.1135rem;
+            left: 20.7rem;
+            position: absolute;
+            top: 17.7rem;
+            width: 8.825rem;
+            transition: transform 0.2s;
+        }
+        .rectangle-12-c5j:active{
+            transform: translateY(2px);
+        }
+        .rectangle-7-vMK {
+            background-color: #727272;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.2247rem;
+            left: 2.7576rem;
+            position: absolute;
+            top: 9.5326rem;
+            width: 7.967rem;
+        }
+        .rectangle-8-RYy {
+            background-color: #ffffff;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.2247rem;
+            left: 10.7247rem;
+            position: absolute;
+            top: 14.3157rem;
+            width: 19.1208rem;
+        }
+        .rectangle-9-LR3 {
+            background-color: #727272;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            height: 2.2247rem;
+            left: 2.7576rem;
+            position: absolute;
+            top: 14.3157rem;
+            width: 7.967rem;
+        }
+        .login-3qF {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 14.25rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 3.7rem;
+            white-space: nowrap;
+            width: 3.2rem;
+        }
+        .id-tqs {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 6.3rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 9.9rem;
+            white-space: nowrap;
+            width: 1.2rem;
+        }
+        .pw-nwF {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 5.9rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 14.65rem;
+            white-space: nowrap;
+            width: 2rem;
+        }
+        .id-pw-tDb {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 4.95rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 17.95rem;
+            white-space: nowrap;
+            width: 3.5rem;
+        }
+        .login-yF3 {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 14.2rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 17.9rem;
+            white-space: nowrap;
+            width: 3.2rem;
+        }
+        .close-ery {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 14.3rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 21rem;
+            white-space: nowrap;
+            width: 3.2rem;
+        }
+        .register-kv1 {
+            align-items: center;
+            color: #000000;
+            display: flex;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.2rem;
+            font-weight: 400;
+            height: 1.5rem;
+            justify-content: center;
+            left: 22.8rem;
+            line-height: 1.2125;
+            position: absolute;
+            top: 18rem;
+            white-space: nowrap;
+            width: 4.7rem;
+        }
+    }
+}
+
